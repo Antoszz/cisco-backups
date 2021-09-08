@@ -6,7 +6,7 @@
 :
 ASA Version 9.9(2) 
 !
-hostname ASAv
+hostname ASA1
 domain-name antosz.pl
 enable password $sha512$5000$Xf2QQ4wW1zMFDHDbVbGJgA==$eg1I1mWdsyX4nbbPpqqITg== pbkdf2
 names
@@ -202,5 +202,4 @@ call-home
   subscribe-to-alert-group inventory periodic monthly
   subscribe-to-alert-group configuration periodic monthly
   subscribe-to-alert-group telemetry periodic daily
-Cryptochecksum:95d2c1e88835953e698aebbf7284839d
 : end
